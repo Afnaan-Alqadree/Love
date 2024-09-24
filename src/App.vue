@@ -3,7 +3,7 @@
     <button @click="showMessage" v-if="!messageVisible" class="love-button">Press Me!</button>
     
     <div v-if="messageVisible" class="message-container">
-      <h1>I love you! <span class="material-icons heart"></span></h1>
+      <h1>I love you! <span class="material-icons heart">favorite</span></h1>
       <div class="picture-container">
         <img src="@/assets/1515342933.svg" alt="pic" class="pic">
       </div>
